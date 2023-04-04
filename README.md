@@ -29,7 +29,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[VET_CLINIC]** is a backend project build using postgressSQL for database management system, the database contains patients, payment invoice, medical history, invoice items and treament informations.
+**[CLINIC_RECORD]** is a backend project build using postgressSQL for database management system, the database contains patients, payment invoice, medical history, invoice items and treament informations.
 
 ## 🛠 Built With <a name="built-with"> postgressSQL</a>
 
@@ -152,6 +152,12 @@ Example:
 - GitHub: [@Tobby8629](https://github.com/Tobby8629)
 - Twitter: [@Tobby_samuels](https://twitter.com/Tobby_samuels)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/samuel-popoola-tobby/)
+
+👤**Alwyn Androvelle**
+
+- GitHub: [@Thoth1111](https://github.com/Thoth1111)
+- Twitter: [@androvelle](https://twitter.com/androvelle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/alwyn-androvelle-simiyu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
