@@ -60,7 +60,7 @@ ALTER TABLE invoice_items
 ADD COLUMN treatment_id INT
 REFERENCES treatments(id);
 
---create join table fro medical histories and treatments table
+--create join table from medical histories and treatments table
 CREATE TABLE medical_histories_treatments (
   medical_histories_id INT REFERENCES medical_histories(id),
   treatments_id INT REFERENCES treatments(id),
