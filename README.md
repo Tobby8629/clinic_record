@@ -29,7 +29,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[VET_CLINIC]** is a backend project build using postgressSQL for database management system, the database contains patients, payment invoice, medical history, invoice items and treament informations.
+**[CLINIC_RECORD]** is a backend project build using postgressSQL for database management system, the database contains patients, payment invoice, medical history, invoice items and treament informations.
 
 ## 🛠 Built With <a name="built-with"> postgressSQL</a>
 
