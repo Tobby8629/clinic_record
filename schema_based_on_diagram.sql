@@ -45,6 +45,9 @@ ADD CONSTRAINT FK_patients_medical_histories
 FOREIGN KEY (patient_id)
 REFERENCES patients(id);
 
+--Add indexes to FK 
+ CREATE INDEX patient_id_asc ON medical_histories(patient_id asc);
+
 --Add medical history id column to invoices and set as foreign key
 ALTER TABLE invoices
 ADD COLUMN medical_histories_id INT UNIQUE
@@ -55,10 +58,16 @@ ALTER TABLE invoice_items
 ADD COLUMN invoice_id INT
 REFERENCES invoices(id);
 
+--Add indexes to FK 
+ CREATE INDEX invoice_id_asc ON invoice_items(invoice_id asc);
+
 --Add treatment id column and set as foreign key
 ALTER TABLE invoice_items
 ADD COLUMN treatment_id INT
 REFERENCES treatments(id);
+
+--Add indexes to FK 
+ CREATE INDEX treatment_id_asc ON invoice_items(treatment_id asc);
 
 --create join table from medical histories and treatments table
 CREATE TABLE medical_histories_treatments (
