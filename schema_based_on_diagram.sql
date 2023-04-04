@@ -53,6 +53,9 @@ ALTER TABLE invoices
 ADD COLUMN medical_histories_id INT UNIQUE
 REFERENCES medical_histories(id);
 
+--Add indexes to FK
+CREATE INDEX medical_histories_id_asc ON invoices(medical_histories_id asc);
+
 --Add invoice id column and set as foreign key
 ALTER TABLE invoice_items
 ADD COLUMN invoice_id INT
