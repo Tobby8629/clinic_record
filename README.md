@@ -153,6 +153,12 @@ Example:
 - Twitter: [@Tobby_samuels](https://twitter.com/Tobby_samuels)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/samuel-popoola-tobby/)
 
+👤**Alwyn Androvelle**
+
+- GitHub: [@Thoth1111](https://github.com/Thoth1111)
+- Twitter: [@androvelle](https://twitter.com/androvelle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/alwyn-androvelle-simiyu/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
